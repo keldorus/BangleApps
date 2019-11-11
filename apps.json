@@ -1,4 +1,15 @@
 [
+  { "id": "timer",
+    "name": "My Timer",
+    "icon": "my-timer.png",
+    "description": "An Analog Clock",
+    "tags": "",
+    "type":"app",
+    "storage": [
+      {"name":"+timer","url":"my-timer.json"},
+      {"name":"-timer","url":"my-timer.js"},
+    ]
+  },
   { "id": "boot",
     "name": "Bootloader",
     "icon": "bootloader.png",
