@@ -1,15 +1,4 @@
 [
-  { "id": "timer",
-    "name": "My Timer",
-    "icon": "my-timer.png",
-    "description": "An Analog Clock",
-    "tags": "",
-    "type":"app",
-    "storage": [
-      {"name":"+timer","url":"my-timer.json"},
-      {"name":"-timer","url":"my-timer.js"},
-    ]
-  },
   { "id": "boot",
     "name": "Bootloader",
     "icon": "bootloader.png",
@@ -333,6 +322,17 @@
       {"name":"+sclock","url":"clock-simple.json"},
       {"name":"-sclock","url":"clock-simple.js"},
       {"name":"*sclock","url":"clock-simple.js","evaluate":true}
+    ]
+  },
+    { "id": "timer",
+    "name": "My Timer",
+    "icon": "my-timer.png",
+    "description": "An Analog Clock",
+    "tags": "",
+    "type":"app",
+    "storage": [
+      {"name":"+timer","url":"my-timer.json"},
+      {"name":"-timer","url":"my-timer.js"},
     ]
   }
 ]
