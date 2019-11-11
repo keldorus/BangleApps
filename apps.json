@@ -332,7 +332,8 @@
     "type":"app",
     "storage": [
       {"name":"+timer","url":"my-timer.json"},
-      {"name":"-timer","url":"my-timer.js"}
+      {"name":"-timer","url":"my-timer.js"},
+      {"name":"*timer","url":"my-timer-icon.js","evaluate":true}
     ]
   }
 ]
